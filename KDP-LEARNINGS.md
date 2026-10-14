@@ -1,0 +1,28 @@
+# KDP Learnings Log — read before every book, add 3 lines after every book
+
+## Book 1 — Dino Trucks Coloring Book (Oct 6, 2026)
+What worked
+- One fixed prompt template → all 50 pages matched in style; zero rejects.
+- Cleaning pipeline (upscale ~2x, blur 1.2, threshold 150, 0.5" margin) → KDP flagged no issues.
+- Cover from a coloured interior page = free, matches inside, strong thumbnail.
+- Single-sided pages + "This book belongs to" page = 102 pages.
+Lessons / fix next time
+- Ask Bibhu to name files 01–50 in prompt order (Book 1 needed manual mapping).
+- ChatGPT output ~1100×1425 px — ask for largest size/upscale; aim ≥2000 px tall.
+- Real print cost is $2.84 for 102 pp (not $2.25) → royalty $3.15 at $9.99. Consider 80–90 pp to cut cost.
+- KDP Previewer can stall on "Checking cover" → reload the content page and relaunch; files stay saved.
+- AI-disclosure answers reset after file uploads → re-check them + tick "I confirm" before Save and Continue.
+- Complete KDP account (tax/bank) BEFORE the first book.
+Results (fill in later)
+- Live date: — | Sales wk1: — | wk4: — | BSR: — | Reviews: —
+
+## Oct 9, 2026 — KDP "Alert from Amazon": contributor name may confuse customers
+- Cause: author "Dino Doodle Press" reads like a publisher, not a person. 5-day deadline or book is unpublished.
+- Fix: author = **Bibhu Behera** (real name) for all books; cover front/back updated to match; "Dino Doodle" stays as brand/series.
+- Rule: author must be a person-style name. Never use "Press/Publishing/Studio" as author. Before any pen name, search Amazon/Goodreads — "Riley Brooks" was a real children's author (caught before publishing).
+
+## Oct 15, 2026 — Planner design decisions (ADHD Homework Planner)
+- Spiral/tabbed/tear-off planners (Blue Sky, Taja) can't be made on KDP — sell the same job as an undated glued paperback.
+- Keep planner interiors **black & white + grey tints**. Colour interior ≈ $5.30 print vs ~$2.45 B&W at 120 pp → royalty halves. Colour lives on the cover only.
+- Design each box to solve one named user problem — makes the listing write itself.
+- Never claim a planner treats/fixes/improves ADHD. Say "designed for ADHD students / executive function".
