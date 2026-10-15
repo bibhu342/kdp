@@ -2,7 +2,7 @@
 
 **Title:** ADHD Homework Planner for Students
 **Subtitle:** Undated Full School Year Daily Planner (180 Days) for Kids & Teens to Beat Procrastination, Focus in Sprints and Finish Homework | Weekly & Monthly Pages, 8.5 x 11
-**Author:** Bibhu Behera (pen name skipped: buyers pick planners by cover/title/reviews, not author; real name = zero KDP contributor risk)
+**Author:** Leah Marston (pen name; Bibhu: do not use real name on this line. Web search Oct 15 found no existing author with this name.)
 **Price:** $14.99 US (print $3.81 → royalty ~$5.18; at $12.99 royalty ~$3.98) · B&W, white paper, 8.5×11, no bleed, matte · 234 pages · free KDP ISBN (only with Bibhu's yes)
 
 ## Description

@@ -14,7 +14,7 @@ for n, f in [("Sans", "LiberationSans-Regular"), ("Sans-Bold", "LiberationSans-B
              ("Sans-Italic", "LiberationSans-Italic"), ("Sans-BoldItalic", "LiberationSans-BoldItalic")]:
     pdfmetrics.registerFont(TTFont(n, FD + f + ".ttf"))
 
-AUTHOR = "Bibhu Behera"  # Oct 15: pen name skipped (no sales benefit for planners); real name = zero KDP risk
+AUTHOR = "Leah Marston"  # pen name (Bibhu: do not use real name); clear on web search Oct 15
 TITLE = "ADHD Homework Planner for Students"
 DAYS, WEEKS = 180, 36
 MONTH_WEEKS = [4] * 9  # full school year: 36 weeks over 9 monthly resets
@@ -336,7 +336,7 @@ def build_cover(path, n_pages):
     fx = bleed + W + spine  # front panel left edge (trim)
     c.setFillColor(NAVY); c.rect(0, 0, CW, CH, fill=1, stroke=0)
     # confetti shapes (front only, away from text)
-    for (x, y, r, col) in [(0.94, 0.975, 18, SUN), (0.08, 0.05, 30, CORAL), (0.93, 0.30, 14, TEAL), (0.05, 0.62, 10, SUN)]:
+    for (x, y, r, col) in [(0.94, 0.975, 18, SUN), (0.06, 0.04, 26, CORAL), (0.95, 0.06, 12, TEAL)]:
         c.setFillColor(col); c.circle(fx + x * W, bleed + y * H, r, fill=1, stroke=0)
     # FRONT: title
     c.setFillColor(SUN); c.setFont("Sans-Bold", 15); c.drawCentredString(fx + W / 2, bleed + H - 78, "FULL SCHOOL YEAR  •  UNDATED  •  AGES 9-16")
@@ -347,19 +347,16 @@ def build_cover(path, n_pages):
     c.setFillColor(white); c.setFont("Sans-Bold", 17); c.drawCentredString(fx + W / 2, bleed + H - 230, "FOR STUDENTS")
     c.setFillColor(CREAM); c.setFont("Sans", 13)
     c.drawCentredString(fx + W / 2, bleed + H - 266, "Beat procrastination, focus in sprints & finish homework")
-    # tilted daily-page mockup
-    s = 0.50; pw, ph = W * s, H * s; cx, cy = fx + W / 2, bleed + 250
-    c.saveState(); c.translate(cx, cy); c.rotate(-4)
-    c.setFillColor(HexColor("#0E1830")); c.roundRect(-pw / 2 + 8, -ph / 2 - 8, pw, ph, 6, fill=1, stroke=0)
-    c.setFillColor(white); c.roundRect(-pw / 2, -ph / 2, pw, ph, 6, fill=1, stroke=0)
-    c.translate(-pw / 2, -ph / 2); c.scale(s, s); daily(c, 1)
-    c.restoreState()
-    # callout stickers
-    for (x, y, txt, col, rot) in [(fx + 92, bleed + 360, "Focus\nSprints", CORAL, 8), (fx + W - 92, bleed + 230, "Time\nGuessing", SUN, -8), (fx + 96, bleed + 150, "Before I\nHand It In", TEAL, 6)]:
-        c.saveState(); c.translate(x, y); c.rotate(rot); c.setFillColor(col); c.circle(0, 0, 44, fill=1, stroke=0)
-        c.setFillColor(NAVY if col == SUN else white); c.setFont("Sans-Bold", 12.5)
-        ls = txt.split("\n"); [c.drawCentredString(0, 4 - i * 14 + (len(ls) - 2) * 7, t) for i, t in enumerate(ls)]
-        c.restoreState()
+    # straight daily-page mockup (no rotation = no skew)
+    s = 0.54; pw, ph = W * s, H * s; px, py = fx + (W - pw) / 2, bleed + 54
+    c.setFillColor(HexColor("#0E1830")); c.roundRect(px + 5, py - 5, pw, ph, 6, fill=1, stroke=0)
+    c.setFillColor(white); c.roundRect(px, py, pw, ph, 6, fill=1, stroke=0)
+    c.saveState(); c.translate(px, py); c.scale(s, s); daily(c, 1); c.restoreState()
+    # callout stickers, outside the page mockup
+    for (x, y, txt, col) in [(fx + 74, bleed + 400, "Focus\nSprints", CORAL), (fx + W - 74, bleed + 270, "Time\nGuessing", SUN), (fx + 74, bleed + 140, "Before I\nHand It In", TEAL)]:
+        c.setFillColor(col); c.circle(x, y, 40, fill=1, stroke=0)
+        c.setFillColor(NAVY if col == SUN else white); c.setFont("Sans-Bold", 11.5)
+        ls = txt.split("\n"); [c.drawCentredString(x, y + 2 - i * 13 + (len(ls) - 2) * 6.5, t) for i, t in enumerate(ls)]
     c.setFillColor(white); c.setFont("Sans-Bold", 14); c.drawCentredString(fx + W / 2, bleed + 30, AUTHOR)
     # SPINE
     if n_pages >= 100:
