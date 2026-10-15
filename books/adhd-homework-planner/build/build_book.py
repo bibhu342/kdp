@@ -347,16 +347,23 @@ def build_cover(path, n_pages):
     c.setFillColor(white); c.setFont("Sans-Bold", 17); c.drawCentredString(fx + W / 2, bleed + H - 230, "FOR STUDENTS")
     c.setFillColor(CREAM); c.setFont("Sans", 13)
     c.drawCentredString(fx + W / 2, bleed + H - 266, "Beat procrastination, focus in sprints & finish homework")
-    # straight daily-page mockup (no rotation = no skew)
-    s = 0.54; pw, ph = W * s, H * s; px, py = fx + (W - pw) / 2, bleed + 54
-    c.setFillColor(HexColor("#0E1830")); c.roundRect(px + 5, py - 5, pw, ph, 6, fill=1, stroke=0)
-    c.setFillColor(white); c.roundRect(px, py, pw, ph, 6, fill=1, stroke=0)
-    c.saveState(); c.translate(px, py); c.scale(s, s); daily(c, 1); c.restoreState()
-    # callout stickers, outside the page mockup
-    for (x, y, txt, col) in [(fx + 74, bleed + 400, "Focus\nSprints", CORAL), (fx + W - 74, bleed + 270, "Time\nGuessing", SUN), (fx + 74, bleed + 140, "Before I\nHand It In", TEAL)]:
-        c.setFillColor(col); c.circle(x, y, 40, fill=1, stroke=0)
-        c.setFillColor(NAVY if col == SUN else white); c.setFont("Sans-Bold", 11.5)
-        ls = txt.split("\n"); [c.drawCentredString(x, y + 2 - i * 13 + (len(ls) - 2) * 6.5, t) for i, t in enumerate(ls)]
+    # feature pills row
+    pills = [("Focus Sprints", CORAL, white), ("Time Guessing", SUN, NAVY), ("Before I Hand It In", TEAL, white)]
+    c.setFont("Sans-Bold", 12.5); gap = 10
+    pws = [c.stringWidth(t, "Sans-Bold", 12.5) + 26 for t, _, _ in pills]
+    x = fx + (W - sum(pws) - gap * 2) / 2; py0 = bleed + H - 312
+    for (t, bg, fg), w in zip(pills, pws):
+        c.setFillColor(bg); c.roundRect(x, py0, w, 26, 13, fill=1, stroke=0)
+        c.setFillColor(fg); c.drawCentredString(x + w / 2, py0 + 8.5, t); x += w + gap
+    # zoomed crop of the real daily page: large enough to read (no rotation)
+    s = 0.82; cwid = (W - 2 * M) * s + 28; ctop = py0 - 18
+    cbot = ctop - 16 - (32 + 43 + 89 + 183 + 104) * s - 4  # ends just under the Focus Sprints row
+    cx0 = fx + (W - cwid) / 2
+    c.setFillColor(HexColor("#0E1830")); c.roundRect(cx0 + 5, cbot - 5, cwid, ctop - cbot, 10, fill=1, stroke=0)
+    c.setFillColor(white); c.roundRect(cx0, cbot, cwid, ctop - cbot, 10, fill=1, stroke=0)
+    c.saveState(); p = c.beginPath(); p.roundRect(cx0, cbot, cwid, ctop - cbot, 10); c.clipPath(p, stroke=0, fill=0)
+    c.translate(cx0 + 14 - M * s, ctop - 16 - (H - M) * s); c.scale(s, s); daily(c, 1)
+    c.restoreState()
     c.setFillColor(white); c.setFont("Sans-Bold", 14); c.drawCentredString(fx + W / 2, bleed + 30, AUTHOR)
     # SPINE
     if n_pages >= 100:
@@ -384,13 +391,16 @@ def build_cover(path, n_pages):
         c.setFillColor(white); c.drawString(bx + m + 18, y, b); y -= 22
     c.setFillColor(SUN); c.setFont("Sans-Bold", 13)
     c.drawString(bx + m, y - 14, "Undated  •  180 daily  •  36 weekly  •  9 monthly pages  •  8.5 x 11 in")
-    # weekly page mini-preview
-    s2 = 0.30; c.saveState(); c.translate(bx + m, bleed + 60)
-    c.setFillColor(white); c.roundRect(0, 0, W * s2, H * s2, 4, fill=1, stroke=0); c.scale(s2, s2); weekly(c, 1); c.restoreState()
-    c.setFillColor(CREAM); c.setFont("Sans-Italic", 9)
-    c.drawString(bx + m + W * 0.30 + 24, bleed + 160, "A planner, not a treatment. Designed for")
-    c.drawString(bx + m + W * 0.30 + 24, bleed + 147, "ADHD students and anyone who struggles")
-    c.drawString(bx + m + W * 0.30 + 24, bleed + 134, "with focus, time and getting started.")
+    c.setFillColor(CREAM); c.setFont("Sans-Italic", 10)
+    c.drawString(bx + m, bleed + 386, "A planner, not a treatment. Designed for ADHD students and anyone who")
+    c.drawString(bx + m, bleed + 372, "struggles with focus, time and getting started.")
+    # zoomed crop of the weekly page (readable), kept left of the barcode zone
+    s2 = 0.62; ww = (W - 2 * M) * s2 + 28; wtop = bleed + 350
+    wbot = wtop - 16 - (32 + 177 + 81 + 88) * s2 - 2.5
+    c.setFillColor(HexColor("#0E1830")); c.roundRect(bx + m + 4, wbot - 4, ww, wtop - wbot, 8, fill=1, stroke=0)
+    c.setFillColor(white); c.roundRect(bx + m, wbot, ww, wtop - wbot, 8, fill=1, stroke=0)
+    c.saveState(); p = c.beginPath(); p.roundRect(bx + m, wbot, ww, wtop - wbot, 8); c.clipPath(p, stroke=0, fill=0)
+    c.translate(bx + m + 14 - M * s2, wtop - 16 - (H - M) * s2); c.scale(s2, s2); weekly(c, 1); c.restoreState()
     # barcode zone left clear: KDP places 2" x 1.2" barcode bottom-right of back panel
     c.save(); return CW / 72, CH / 72, spine / 72
 

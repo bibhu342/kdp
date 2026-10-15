@@ -36,3 +36,4 @@ Results (fill in later)
 - Pen names don't change planner sales (cover/title/keywords do), but Bibhu keeps his real name off non-Dino lines → ADHD planner uses pen name Leah Marston.
 - Expanded to a full school year (180 daily / 36 weekly / 9 monthly = 234 pp). B&W print = $1.00 + $0.012 × pages → $3.81, so price $14.99 to keep the royalty around $5. Stay undated: a "2027" dated planner sells for about 3 months and then dies, while undated sells every year.
 - Cover mockup: never rotate the page preview. The tilt plus offset shadow looked skewed (Bibhu: "distorted"). Use a straight page, a small drop shadow, and stickers kept outside the page.
+- Cover previews must be readable: show a zoomed crop (scale ≥0.6, ending cleanly under a box row) instead of a whole page shrunk to 0.3–0.5×, which makes the text 4–5 pt.
