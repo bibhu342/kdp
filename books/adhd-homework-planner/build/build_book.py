@@ -336,7 +336,7 @@ def build_cover(path, n_pages):
     fx = bleed + W + spine  # front panel left edge (trim)
     c.setFillColor(NAVY); c.rect(0, 0, CW, CH, fill=1, stroke=0)
     # confetti shapes (front only, away from text)
-    for (x, y, r, col) in [(0.94, 0.975, 18, SUN), (0.06, 0.04, 26, CORAL), (0.95, 0.06, 12, TEAL)]:
+    for (x, y, r, col) in []:  # plain dots removed Oct 15 (read as empty stickers)
         c.setFillColor(col); c.circle(fx + x * W, bleed + y * H, r, fill=1, stroke=0)
     # FRONT: title
     c.setFillColor(SUN); c.setFont("Sans-Bold", 15); c.drawCentredString(fx + W / 2, bleed + H - 78, "FULL SCHOOL YEAR  •  UNDATED  •  AGES 9-16")
@@ -385,7 +385,7 @@ def build_cover(path, n_pages):
     c.setFillColor(SUN); c.setFont("Sans-Bold", 13)
     c.drawString(bx + m, y - 14, "Undated  •  180 daily  •  36 weekly  •  9 monthly pages  •  8.5 x 11 in")
     # weekly page mini-preview
-    s2 = 0.30; c.saveState(); c.translate(bx + m, bleed + 60); c.rotate(3)
+    s2 = 0.30; c.saveState(); c.translate(bx + m, bleed + 60)
     c.setFillColor(white); c.roundRect(0, 0, W * s2, H * s2, 4, fill=1, stroke=0); c.scale(s2, s2); weekly(c, 1); c.restoreState()
     c.setFillColor(CREAM); c.setFont("Sans-Italic", 9)
     c.drawString(bx + m + W * 0.30 + 24, bleed + 160, "A planner, not a treatment. Designed for")
