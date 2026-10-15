@@ -1,6 +1,8 @@
 # ADHD Homework Planner for Students — status (Oct 15, 2026)
 
-**Status:** daily page v2 APPROVED by Bibhu. Next: build the full ~120-page interior + cover, then the listing.
+**Status (Oct 15):** full interior (`interior.pdf`, 120 pp) + wraparound cover (`cover.pdf`, 17.52×11.25 in, spine 0.270 in) BUILT. Listing drafted in `LISTING.md`.
+**Waiting on Bibhu:** (1) review interior + `cover_preview.png`; (2) yes/no on pen name **Leah Marston**; (3) Publish in the Oct 18–24 slot.
+Rebuild: `cd build && python3 build_book.py` (change `AUTHOR` there if the pen name changes).
 
 ## Spec
 - 8.5×11 paperback, undated, black & white interior with grey tints (no colour interior: royalty would halve).
@@ -22,7 +24,11 @@
 | Rejection sensitivity | "If a friend had my day, I'd tell them:" |
 | "Lazy" label | Win of the Day + My Reward |
 
-## Full book plan (to build)
+## Full book (built: 120 pp)
+Order: belongs-to · how-to-use · brain card · tests & projects ×2 · then 4× [monthly reset → weeks (5,5,4,4) of (My Week + 5 daily)] · wins wall · notes ×2.
+Daily pages are tagged "DAY n of 90" and weekly pages "WEEK n of 18". Fonts are embedded Liberation Sans (no Helvetica, which KDP flags when it isn't embedded).
+
+## Original plan
 - Front: this-planner-belongs-to, how to use (1 page), "How My Brain Works Best" card for teachers/parents.
 - ~90 daily pages (v2 design).
 - Weekly overview (every 5 daily pages) incl. friendship check-in + 3 social scripts.
