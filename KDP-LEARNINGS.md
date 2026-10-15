@@ -37,3 +37,6 @@ Results (fill in later)
 - Expanded to a full school year (180 daily / 36 weekly / 9 monthly = 234 pp). B&W print = $1.00 + $0.012 × pages → $3.81, so price $14.99 to keep the royalty around $5. Stay undated: a "2027" dated planner sells for about 3 months and then dies, while undated sells every year.
 - Cover mockup: never rotate the page preview. The tilt plus offset shadow looked skewed (Bibhu: "distorted"). Use a straight page, a small drop shadow, and stickers kept outside the page.
 - Cover previews must be readable: show a zoomed crop (scale ≥0.6, ending cleanly under a box row) instead of a whole page shrunk to 0.3–0.5×, which makes the text 4–5 pt.
+Results: ADHD Homework Planner (fill in later)
+- Published: Oct 15, 2026 | $14.99 | 234 pp | Sales wk1: — | wk4: — | BSR: — | Reviews: —
+- Took 6 cover rounds (tilt → dots → readability). Next planner: start from the zoomed-crop cover layout in build_book.py.

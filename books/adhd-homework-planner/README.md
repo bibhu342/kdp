@@ -1,6 +1,8 @@
 # ADHD Homework Planner for Students — status (Oct 15, 2026)
 
-**Status (Oct 15):** full-school-year interior (`interior.pdf`, 234 pp: 180 daily, 36 weekly, 9 monthly) + wraparound cover (`cover.pdf`, 17.78×11.25 in, spine 0.527 in) BUILT. Listing drafted in `LISTING.md`.
+**PUBLISHED Oct 15, 2026** (submitted; KDP review up to 72 h). ISBN: _fill in_ · ASIN: _fill in_.
+
+**Build status (Oct 15):** full-school-year interior (`interior.pdf`, 234 pp: 180 daily, 36 weekly, 9 monthly) + wraparound cover (`cover.pdf`, 17.78×11.25 in, spine 0.527 in) BUILT. Listing drafted in `LISTING.md`.
 **Waiting on Bibhu:** (1) review interior + `cover_preview.png`; (2) author = pen name Leah Marston (decided Oct 15); (3) Publish in the Oct 18–24 slot.
 Rebuild: `cd build && python3 build_book.py` (change `AUTHOR` there if the pen name changes).
 
