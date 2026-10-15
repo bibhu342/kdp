@@ -37,3 +37,10 @@ Results (fill in later)
 - Expanded to a full school year (180 daily / 36 weekly / 9 monthly = 234 pp). B&W print = $1.00 + $0.012 × pages → $3.81, so price $14.99 to keep the royalty around $5. Stay undated: a "2027" dated planner sells for about 3 months and then dies, while undated sells every year.
 - Cover mockup: never rotate the page preview. The tilt plus offset shadow looked skewed (Bibhu: "distorted"). Use a straight page, a small drop shadow, and stickers kept outside the page.
 - Cover previews must be readable: show a zoomed crop (scale ≥0.6, ending cleanly under a box row) instead of a whole page shrunk to 0.3–0.5×, which makes the text 4–5 pt.
+
+## Oct 16, 2026 — ADHD Homework Planner published
+- Real KDP print cost for 234 pp B&W 8.5×11 = **$4.98** (not $3.81 from the old formula) → royalty $4.02 at $14.99. Always read the printing cost in KDP's pricing table before picking a price.
+- KDP has no Self-Help › Time Management category any more; used Children's/Teen Study Aids + School & Education.
+- Previewer passed first try with 234 pp and embedded Liberation Sans; AI disclosure stayed set after upload (fill it AFTER uploading files, then re-check).
+- Chrome file upload works from the staged container copy, not the Windows path.
+Results (fill in later): Live date: — | Sales wk1: — | wk4: — | BSR: — | Reviews: —
