@@ -14,7 +14,7 @@ for n, f in [("Sans", "LiberationSans-Regular"), ("Sans-Bold", "LiberationSans-B
              ("Sans-Italic", "LiberationSans-Italic"), ("Sans-BoldItalic", "LiberationSans-BoldItalic")]:
     pdfmetrics.registerFont(TTFont(n, FD + f + ".ttf"))
 
-AUTHOR = "Leah Marston"  # proposed pen name, clear on web search Oct 15 - PENDING Bibhu yes
+AUTHOR = "Bibhu Behera"  # Oct 15: pen name skipped (no sales benefit for planners); real name = zero KDP risk
 TITLE = "ADHD Homework Planner for Students"
 DAYS, WEEKS = 90, 18
 MONTH_WEEKS = [5, 5, 4, 4]  # 18 weeks over 4 monthly resets
@@ -233,12 +233,12 @@ def how_to(c):
         ("Every week", "Fill in the My Week page: big due dates, one goal, your streak and a friendship check-in."),
         ("Every month", "Use the Monthly Reset page to look back, plan big dates and pick one habit."),
     ]
-    y -= 22
+    y -= 22; gap = (y - M - 6) / len(steps)
     for t, d in steps:
-        c.setFillColor(LT); c.roundRect(M, y - 44, cw, 46, 7, fill=1, stroke=0); c.setFillColor(black)
+        c.setFillColor(LT); c.roundRect(M, y - gap + 9, cw, gap - 7, 7, fill=1, stroke=0); c.setFillColor(black)
         c.setFont("Sans-Bold", 11); c.drawString(M + 12, y - 16, t)
         c.setFont("Sans", 9.5); wrap(c, d, M + 12, y - 31, cw - 24, "Sans", 9.5, 12)
-        y -= 53
+        y -= gap
     footer(c, "This planner is a tool, not a test. Messy pages still count.")
 
 def wrap(c, text, x, y, w, font, size, lead):
@@ -260,12 +260,12 @@ def brain_card(c):
              ("When I'm stuck, please...", "e.g. check in quietly, show me the first step"),
              ("The best way to remind me", "e.g. a note on my desk, a quiet tap"),
              ("My strengths", "e.g. creative ideas, kind, great at building things")]
-    hw = (cw - 8) / 2; bh = 150
+    hw = (cw - 8) / 2; bh = (y - M - 34 - 16) / 3
     for i, (t, s) in enumerate(items):
         x = M + (i % 2) * (hw + 8); yy = y - (i // 2) * (bh + 8)
         box(c, x, yy - bh, hw, bh, t)
         c.setFont("Sans-Italic", 7.5); c.setFillColor(G); c.drawString(x + 10, yy - 34, s); c.setFillColor(black)
-        for j in range(5): ln(c, x + 10, yy - 54 - j * 19, x + hw - 10)
+        for j in range(int((bh - 62) / 19) + 1): ln(c, x + 10, yy - 54 - j * 19, x + hw - 10)
     y -= 3 * (bh + 8)
     c.setFont("Sans", 9.5)
     c.drawString(M, y - 14, "Name: ____________________________     Parent signature: ____________________________")

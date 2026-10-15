@@ -1,13 +1,13 @@
 # ADHD Homework Planner for Students — status (Oct 15, 2026)
 
 **Status (Oct 15):** full interior (`interior.pdf`, 120 pp) + wraparound cover (`cover.pdf`, 17.52×11.25 in, spine 0.270 in) BUILT. Listing drafted in `LISTING.md`.
-**Waiting on Bibhu:** (1) review interior + `cover_preview.png`; (2) yes/no on pen name **Leah Marston**; (3) Publish in the Oct 18–24 slot.
+**Waiting on Bibhu:** (1) review interior + `cover_preview.png`; (2) author = Bibhu Behera (decided Oct 15); (3) Publish in the Oct 18–24 slot.
 Rebuild: `cd build && python3 build_book.py` (change `AUTHOR` there if the pen name changes).
 
 ## Spec
 - 8.5×11 paperback, undated, black & white interior with grey tints (no colour interior: royalty would halve).
 - ~120 pages, $12.99 US (~$4.80 royalty). Cover is full colour.
-- Separate person-style pen name (not "Dino Doodle Press"; check Amazon/Goodreads before using).
+- Author: Bibhu Behera (Oct 15: pen name skipped, no sales benefit).
 - Built entirely in code (reportlab): `build/daily_page.py` → `sample_v2_APPROVED.pdf`.
 - Listing language: "designed for ADHD students", "built around executive function". **Never** claim it treats, fixes or improves ADHD.
 
