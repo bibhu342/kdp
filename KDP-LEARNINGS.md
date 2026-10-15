@@ -34,3 +34,4 @@ Results (fill in later)
 - Planner page plan: 90 daily + 18 weekly + 4 monthly + 8 front/back = 120. Number the pages "DAY n of 90" to build progress motivation without dating them.
 - Final QA script: render every page, assert ink ≥0.375 in from the sides and ≥0.25 in from top/bottom, assert no blank pages, `pdffonts` shows no unembedded fonts. Passed on all 120 pages (min margins 0.54/0.54/0.55/0.35 in).
 - Pen names don't sell planners; cover/title/keywords do. Default to Bibhu Behera unless there's a brand reason to separate lines.
+- Expanded to a full school year (180 daily / 36 weekly / 9 monthly = 234 pp). B&W print = $1.00 + $0.012 × pages → $3.81, so price $14.99 to keep the royalty around $5. Stay undated: a "2027" dated planner sells for about 3 months and then dies, while undated sells every year.

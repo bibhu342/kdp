@@ -21,7 +21,7 @@ Client work comes first. KDP = ~1 hr/day, 4 days/week, 2 books/week.
 5. ⬜ Bold & Easy Dino Coloring (ages 1–4) — med BSR 4k; heavier competition, needs standout cover
 6. ⬜ Dino Scissor Skills (preschool) — med BSR 23k, 3/10 <50 reviews
 7–8. ⬜ Oct 25–31: Vol 2 of the best seller + Christmas variant of the best format (decided from KDP Reports)
-NEW ⬜ **ADHD Homework Planner for Students** — new line, separate pen name, $12.99, ~120 pp, code-made. Daily page APPROVED Oct 15. **Interior 120 pp + cover + listing BUILT Oct 15** (books/adhd-homework-planner/), waiting on Bibhu's review + pen-name yes. Target slot: Oct 18–24.
+NEW ⬜ **ADHD Homework Planner for Students** — new line, separate pen name, $14.99, 234 pp (full school year), code-made. Daily page APPROVED Oct 15. **Full-school-year interior 234 pp + cover + listing BUILT Oct 15** (books/adhd-homework-planner/), waiting on Bibhu's review + pen-name yes. Target slot: Oct 18–24.
 Parked: Dino Feelings/SEL (med BSR 135k = weak demand), Letter tracing (brands dominate), Dot-to-dot (no newcomers ranking), Cozy (Coco Wyo dominates)
 
 ## October sprint — 8 books live by Oct 31 (KDP cap = 2 new paperbacks/week, resets Sun 00:00 UTC)

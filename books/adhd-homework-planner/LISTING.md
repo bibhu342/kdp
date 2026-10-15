@@ -1,9 +1,9 @@
 # KDP listing draft — ADHD Homework Planner for Students (Paperback)
 
 **Title:** ADHD Homework Planner for Students
-**Subtitle:** Undated 90-Day Daily Planner for Kids & Teens to Beat Procrastination, Focus in Sprints and Finish Homework | Weekly & Monthly Pages, 8.5 x 11
+**Subtitle:** Undated Full School Year Daily Planner (180 Days) for Kids & Teens to Beat Procrastination, Focus in Sprints and Finish Homework | Weekly & Monthly Pages, 8.5 x 11
 **Author:** Bibhu Behera (pen name skipped: buyers pick planners by cover/title/reviews, not author; real name = zero KDP contributor risk)
-**Price:** $12.99 US · B&W, white paper, 8.5×11, no bleed, matte · 120 pages · free KDP ISBN (only with Bibhu's yes)
+**Price:** $14.99 US (print $3.81 → royalty ~$5.18; at $12.99 royalty ~$3.98) · B&W, white paper, 8.5×11, no bleed, matte · 234 pages · free KDP ISBN (only with Bibhu's yes)
 
 ## Description
 Homework, one page at a time.
@@ -19,9 +19,9 @@ This undated planner is designed for ADHD students and anyone who struggles with
 - **Before I Hand It In** checklist to catch careless mistakes
 - **Win of the Day + My Reward**: notice the progress
 
-Inside: 90 undated daily pages, 18 weekly "My Week" pages (due dates, after-school schedule, homework streak, friendship check-in with ready-to-use phrases), 4 monthly reset pages, a tests & projects tracker, a "How My Brain Works Best" card to share with teachers, and a Wins Wall.
+Inside: a full school year — 180 undated daily pages, 36 weekly "My Week" pages (due dates, after-school schedule, homework streak, friendship check-in with ready-to-use phrases), 9 monthly reset pages, a tests & projects tracker, a "How My Brain Works Best" card to share with teachers, and a Wins Wall.
 
-Undated, so you can start any day of the school year. Large 8.5 x 11 pages with plenty of room to write.
+Undated, so you can start any day, in any school year (2026-2027, 2027-2028 and beyond). Large 8.5 x 11 pages with plenty of room to write.
 
 *This is a planning tool, not a medical or therapeutic product.*
 

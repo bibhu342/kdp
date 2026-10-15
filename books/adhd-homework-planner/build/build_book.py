@@ -16,8 +16,8 @@ for n, f in [("Sans", "LiberationSans-Regular"), ("Sans-Bold", "LiberationSans-B
 
 AUTHOR = "Bibhu Behera"  # Oct 15: pen name skipped (no sales benefit for planners); real name = zero KDP risk
 TITLE = "ADHD Homework Planner for Students"
-DAYS, WEEKS = 90, 18
-MONTH_WEEKS = [5, 5, 4, 4]  # 18 weeks over 4 monthly resets
+DAYS, WEEKS = 180, 36
+MONTH_WEEKS = [4] * 9  # full school year: 36 weeks over 9 monthly resets
 
 W, H = letter; M = 0.55 * 72; cw = W - 2 * M
 GR = HexColor("#D9D9D9"); LT = HexColor("#F0F0F0"); L = HexColor("#AAAAAA"); G = HexColor("#555555")
@@ -214,7 +214,7 @@ def belongs(c):
     for t in ["Grade:", "School:", "Teacher(s):", "Started on:", "If found, please return to:", "Phone / email:"]:
         c.drawString(M + 40, y, t); ln(c, M + 48 + c.stringWidth(t, "Sans", 11), y - 1, W - M - 40); y -= 34
     c.setFont("Sans-Italic", 9); c.setFillColor(G)
-    c.drawCentredString(W / 2, M + 60, "Undated - start on any day. 90 days of homework, one page at a time.")
+    c.drawCentredString(W / 2, M + 60, "Undated - start any day, any year. A full school year of homework, one page at a time.")
     c.setFillColor(black)
 
 def how_to(c):
@@ -321,7 +321,7 @@ def build_interior(path):
             w += 1; pages.append(lambda c, w=w: weekly(c, w))
             for _ in range(5):
                 d += 1; pages.append(lambda c, d=d: daily(c, d))
-    pages += [wins_wall, notes, notes]
+    pages += [wins_wall, notes, notes, notes]
     for p in pages: p(c); c.showPage()
     c.save(); return len(pages)
 
@@ -336,10 +336,10 @@ def build_cover(path, n_pages):
     fx = bleed + W + spine  # front panel left edge (trim)
     c.setFillColor(NAVY); c.rect(0, 0, CW, CH, fill=1, stroke=0)
     # confetti shapes (front only, away from text)
-    for (x, y, r, col) in [(0.82, 0.93, 26, SUN), (0.08, 0.05, 30, CORAL), (0.93, 0.30, 14, TEAL), (0.05, 0.62, 10, SUN)]:
+    for (x, y, r, col) in [(0.94, 0.975, 18, SUN), (0.08, 0.05, 30, CORAL), (0.93, 0.30, 14, TEAL), (0.05, 0.62, 10, SUN)]:
         c.setFillColor(col); c.circle(fx + x * W, bleed + y * H, r, fill=1, stroke=0)
     # FRONT: title
-    c.setFillColor(SUN); c.setFont("Sans-Bold", 15); c.drawCentredString(fx + W / 2, bleed + H - 78, "UNDATED  •  90 DAYS  •  AGES 9-16")
+    c.setFillColor(SUN); c.setFont("Sans-Bold", 15); c.drawCentredString(fx + W / 2, bleed + H - 78, "FULL SCHOOL YEAR  •  UNDATED  •  AGES 9-16")
     c.setFillColor(white); c.setFont("Sans-Bold", 62)
     c.drawCentredString(fx + W / 2, bleed + H - 150, "ADHD")
     c.setFont("Sans-Bold", 44); c.drawCentredString(fx + W / 2, bleed + H - 198, "HOMEWORK PLANNER")
@@ -364,7 +364,7 @@ def build_cover(path, n_pages):
     # SPINE
     if n_pages >= 100:
         c.saveState(); c.translate(bleed + W + spine / 2, bleed + H / 2); c.rotate(-90)
-        c.setFillColor(white); c.setFont("Sans-Bold", 9); c.drawCentredString(0, -3.2, "ADHD HOMEWORK PLANNER FOR STUDENTS   •   " + AUTHOR.upper())
+        fs = min(14, spine * 0.5); c.setFillColor(white); c.setFont("Sans-Bold", fs); c.drawCentredString(0, -fs * 0.36, "ADHD HOMEWORK PLANNER FOR STUDENTS   \u2022   " + AUTHOR.upper())
         c.restoreState()
     # BACK
     bx = bleed; m = 54
@@ -386,7 +386,7 @@ def build_cover(path, n_pages):
         c.setFillColor(TEAL); c.circle(bx + m + 5, y + 4, 4, fill=1, stroke=0)
         c.setFillColor(white); c.drawString(bx + m + 18, y, b); y -= 22
     c.setFillColor(SUN); c.setFont("Sans-Bold", 13)
-    c.drawString(bx + m, y - 14, "Undated  •  90 daily pages  •  18 weekly  •  4 monthly  •  8.5 x 11 in")
+    c.drawString(bx + m, y - 14, "Undated  •  180 daily  •  36 weekly  •  9 monthly pages  •  8.5 x 11 in")
     # weekly page mini-preview
     s2 = 0.30; c.saveState(); c.translate(bx + m, bleed + 60); c.rotate(3)
     c.setFillColor(white); c.roundRect(0, 0, W * s2, H * s2, 4, fill=1, stroke=0); c.scale(s2, s2); weekly(c, 1); c.restoreState()
