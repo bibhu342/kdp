@@ -2,7 +2,7 @@
 
 Rebuild everything: `python3 make_marketing.py` (needs `src/` renders: `pdftoppm -png -r 220 -f N -l N -singlefile ../interior.pdf src/pN` for pages 2,3,4,6,7,8 and `pdftoppm -png -r 150 -singlefile ../cover.pdf src/cover`).
 
-**Amazon link:** fill in once the book is live (the ASIN appears on the Bookshelf): `https://www.amazon.com/dp/<ASIN>`
+**Amazon link:** https://www.amazon.com/dp/B0HN7WKJL4 (ASIN B0HN7WKJL4, live Oct 16; may take up to 3 days to show in stock)
 
 ## A+ Content (KDP › Marketing › A+ Content Manager) — free
 **Status Oct 16:** draft "ADHD Homework Planner A+" saved with all 5 modules + alt text. Still to do once the book is live: Apply ASINs (search the title) → Review & submit.
