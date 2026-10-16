@@ -43,4 +43,5 @@ Results (fill in later)
 - KDP has no Self-Help › Time Management category any more; used Children's/Teen Study Aids + School & Education.
 - Previewer passed first try with 234 pp and embedded Liberation Sans; AI disclosure stayed set after upload (fill it AFTER uploading files, then re-check).
 - Chrome file upload works from the staged container copy, not the Windows path.
+- KDP alert same day: long keyword-stuffed subtitle flagged as misleading. Keep subtitles short, no repeated words, no outcome promises.
 Results (fill in later): Live date: — | Sales wk1: — | wk4: — | BSR: — | Reviews: —

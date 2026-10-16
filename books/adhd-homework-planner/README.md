@@ -39,3 +39,6 @@ Daily pages are tagged "DAY n of 180" and weekly pages "WEEK n of 36". Fonts are
 - Reading age 9–16. Not marked low-content. 8.5×11, B&W white, no bleed, matte. Worldwide rights. Expanded Distribution OFF.
 - AI disclosure: Texts = entire work, minimal editing (Claude). Images = none. Translations = none.
 - Keywords and description: see final/LISTING.md (description sent as HTML).
+
+## Oct 16 — KDP title alert fixed
+Amazon 'misleading title' alert (5-day deadline). Subtitle shortened to: `Undated Daily, Weekly & Monthly Pages for Kids and Teens, 180 School Days, 8.5 x 11` (removed repeats and 'Beat Procrastination / Finish Homework'). Title unchanged. Resubmitted Oct 16.
