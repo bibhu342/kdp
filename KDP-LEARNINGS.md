@@ -55,3 +55,8 @@ Results (fill in later): Live date: — | Sales wk1: — | wk4: — | BSR: — |
 - KDP AI disclosure now asks which tool(s): enter Claude (texts) and ChatGPT (images).
 - Title kept short with no repeated words (lesson from the Oct 16 planner alert).
 Results (fill in later): Live date: — | Sales wk1: — | wk4: — | BSR: — | Reviews: —
+
+## Weekly sales log (from KDP Reports, logged Mondays)
+| Week | Dino Trucks (Oct 6) | ADHD Planner (Oct 16) | Dino Mazes (Oct 19) | Notes |
+|---|---|---|---|---|
+| Oct 12–18 | 0 sales, no BSR | 0 (live Oct 16) | — | First full week: 0 sales, 0 KENP, 0 royalties across catalogue. Normal for new books with no reviews and no traffic. |
