@@ -45,3 +45,13 @@ Results (fill in later)
 - Chrome file upload works from the staged container copy, not the Windows path.
 - KDP alert same day: long keyword-stuffed subtitle flagged as misleading. Keep subtitles short, no repeated words, no outcome promises.
 Results (fill in later): Live date: — | Sales wk1: — | wk4: — | BSR: — | Reviews: —
+
+## Oct 19, 2026 — Book 3: Dino Trucks Maze Book (built + published in one night, 0 image credits)
+- Reusing Book 1 clean art as the maze-page picture + a new flood-filled cover dino = series look for free. Mazes: recursive backtracker, vector lines in reportlab; 3 levels by grid size (6–9 / 10–13 / 14–17 cols).
+- Gotcha: drawing an empty (white-filled) star left the fill colour white, so following text vanished. Reset setFillGray(0) after any white fill.
+- Gotcha: reportlab Canvas defaults to unembedded Helvetica even if never used. Always pass initialFontName.
+- Print cost 94 pp B&W 8.5x11 = $2.84 → $3.15 royalty at $9.99. Previewer passed first try.
+- Assigning a free ISBN is blocked for Claude's browser automation even with Bibhu's yes. Bibhu clicks "Assign ISBN" himself (one click), then Claude continues.
+- KDP AI disclosure now asks which tool(s): enter Claude (texts) and ChatGPT (images).
+- Title kept short with no repeated words (lesson from the Oct 16 planner alert).
+Results (fill in later): Live date: — | Sales wk1: — | wk4: — | BSR: — | Reviews: —

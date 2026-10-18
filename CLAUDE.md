@@ -23,6 +23,7 @@ Weekly rhythm: Mon = prompts + Bibhu generates Book A pages · Tue = Book B page
 - `books/<book>/` — prompts, build scripts, samples, status README per book.
 - Raw/clean page images for image books live on Bibhu's PC: `C:\Users\bibhu\VividFlow-Studio\KDP\<book>\`.
 
-## Current focus (Oct 16, 2026)
-- ADHD Homework Planner: PUBLISHED Oct 16 (in review). See `books/adhd-homework-planner/README.md`.
-- Dino Dot Marker + Dino Mazes not published yet. KDP cap: 1 slot left this week (resets Sun Oct 18 00:00 UTC).
+## Current focus (Oct 19, 2026)
+- Dino Trucks Maze Book: PUBLISHED Oct 19 (in review). See `books/dino-mazes/README.md`.
+- ADHD Homework Planner: live (ASIN B0HN7WKJL4). A+ draft waiting to have the ASIN applied.
+- KDP cap: 1 slot left this week (Oct 18–24, resets Sun Oct 25 00:00 UTC). Next: Dino Dot Marker (needs Bibhu's images) or Bold & Easy Dino Coloring.
