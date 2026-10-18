@@ -5,7 +5,7 @@ Rebuild everything: `python3 make_marketing.py` (needs `src/` renders: `pdftoppm
 **Amazon link:** https://www.amazon.com/dp/B0HN7WKJL4 (ASIN B0HN7WKJL4, live Oct 16; may take up to 3 days to show in stock)
 
 ## A+ Content (KDP › Marketing › A+ Content Manager) — free
-**Status Oct 16:** draft "ADHD Homework Planner A+" saved with all 5 modules + alt text. Still to do once the book is live: Apply ASINs (search the title) → Review & submit.
+**Status Oct 19:** ASIN B0HN7WKJL4 applied, submitted for approval (Amazon review up to 7 days, then ~24 h to show).
 Use 5 × "Standard Image Header With Text" modules (970×600). Leave the module headline/body empty; the text is in the image. Fill alt text.
 
 | Order | File | Alt text |
