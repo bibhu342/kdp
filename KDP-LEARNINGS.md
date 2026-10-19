@@ -65,3 +65,4 @@ Results (fill in later): Live date: — | Sales wk1: — | wk4: — | BSR: — |
 - A+ ASIN search failed for days after go-live ("Error fetching ASINs"); worked on Oct 19 by typing the exact ASIN after a fresh page load. A+ submitted for the planner.
 - Series "Dino Trucks Activity Books" (KDP series JDH4V9H5NNK, un-ordered) created with Dino Trucks Coloring Book + Dino Trucks Maze Book as main content. Add every future Dino book to it.
 - Pinterest is still blocked for the Chrome extension (site permission); Bibhu must allow pinterest.com.
+- Author copies: skipped (no India marketplace; shipping/duty > book cost). Rely on Previewer for print QA.
