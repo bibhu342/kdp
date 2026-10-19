@@ -42,4 +42,5 @@ Never claim the planner treats, fixes or improves ADHD. "Designed for ADHD stude
 
 ## Pin log
 Account: Bibhu's personal Pinterest (in.pinterest.com works in Claude in Chrome; www.pinterest.com is blocked).
-- Oct 19: pin 01 tiny-first-step → board "ADHD Homework Tips for Kids" (created). Next: pin 02 on Oct 20. Create board "Homework Planner for Students" before pin 08.
+- Oct 19: pin 01 tiny-first-step → board "ADHD Homework Tips for Kids" (created). 
+- Oct 19: converted to free Pinterest business account (name "Leah Marston Planners"); created board "Homework Planner for Students". Scheduled pins 02–10, one a day at 12:00 PM (account time zone): 02→Oct 20, 03→21, 04→22, 05→23, 06→24, 07→25, 08→26 (Product board), 09→27 (Product board), 10→28. Next: after Oct 28, make new pins with new titles.
