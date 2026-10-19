@@ -39,3 +39,7 @@ Post 1 pin per day (pins 1–10, then repeat with new titles). Every pin links t
 | 10 homework-streak | Tips | Colour a star for every homework day | A weekly homework streak makes progress visible, with one small goal and a reward. #motivationforkids #homeworkhelp #adhdkids |
 
 Never claim the planner treats, fixes or improves ADHD. "Designed for ADHD students" only.
+
+## Pin log
+Account: Bibhu's personal Pinterest (in.pinterest.com works in Claude in Chrome; www.pinterest.com is blocked).
+- Oct 19: pin 01 tiny-first-step → board "ADHD Homework Tips for Kids" (created). Next: pin 02 on Oct 20. Create board "Homework Planner for Students" before pin 08.
