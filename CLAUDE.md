@@ -26,4 +26,5 @@ Weekly rhythm: Mon = prompts + Bibhu generates Book A pages · Tue = Book B page
 ## Current focus (Oct 19, 2026)
 - Dino Trucks Maze Book: PUBLISHED Oct 19 (in review). See `books/dino-mazes/README.md`.
 - ADHD Homework Planner: live (ASIN B0HN7WKJL4). A+ draft waiting to have the ASIN applied.
+- Student Planner (Leah Marston, $12.99): KDP DRAFT complete, waiting for Bibhu's Publish yes. See `books/student-planner/`.
 - KDP cap: 1 slot left this week (Oct 18–24, resets Sun Oct 25 00:00 UTC). Next: Dino Dot Marker (needs Bibhu's images) or Bold & Easy Dino Coloring.

@@ -66,3 +66,11 @@ Results (fill in later): Live date: — | Sales wk1: — | wk4: — | BSR: — |
 - Series "Dino Trucks Activity Books" (KDP series JDH4V9H5NNK, un-ordered) created with Dino Trucks Coloring Book + Dino Trucks Maze Book as main content. Add every future Dino book to it.
 - Pinterest is still blocked for the Chrome extension (site permission); Bibhu must allow pinterest.com.
 - Author copies: skipped (no India marketplace; shipping/duty > book cost). Rely on Previewer for print QA.
+
+## Student Planner (Oct 19, 2026) — draft built
+- Chosen from sweep #2: only planner niche with leaders <15k BSR (10.4k, 11.2k). Undated, B&W, 8.5x11, 142 pp, $12.99, pen name Leah Marston.
+- KDP print cost 142 pp B&W = $3.41; at $12.99 royalty 60% = $4.38. Low-content ticked honestly -> 'Publish without an ISBN' available (no ISBN assigned; expanded distribution unavailable).
+- Previewer: no issues first pass (fonts embedded, margins >=0.36in). KDP auto-added a barcode on back cover.
+- file_upload needs a manual input/change event dispatch via JS to register on KDP Content page.
+- AI disclosure: texts Claude entire work minimal editing; images none; translations none.
+- ADHD planner was left with low-content unticked; offer to correct.
