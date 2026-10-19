@@ -7,3 +7,5 @@ Listing text: final/LISTING.md
 
 ## Status Oct 19, 2026
 KDP draft complete (details, content approved in Previewer, pricing $12.99, no ISBN). NOT published — needs Bibhu's yes.
+
+Published Oct 19, 2026 (KDP ID 0XBWFXAF15M, no ISBN, $12.99). Used the last Oct 18–24 slot.

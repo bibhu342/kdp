@@ -22,7 +22,7 @@ Client work comes first. KDP = ~1 hr/day, 4 days/week, 2 books/week.
 6. ⬜ Dino Scissor Skills (preschool) — med BSR 23k, 3/10 <50 reviews
 7–8. ⬜ Oct 25–31: Vol 2 of the best seller + Christmas variant of the best format (decided from KDP Reports)
 NEW ✅ **ADHD Homework Planner for Students** — PUBLISHED Oct 16, 2026 (in review). Pen name Leah Marston, 234 pp, $14.99, ISBN 9798162774228, royalty $4.02. Used 1 of the Oct 11–17 KDP slots.
-NEW 📝 **Student Planner for Middle and High School** — KDP DRAFT ready Oct 19 (awaiting Bibhu's Publish). Pen name Leah Marston, 142 pp, $12.99, no ISBN (low-content, 'Publish without ISBN'), print $3.41 → royalty $4.38. Would use the last Oct 18–24 slot.
+NEW 📝 **Student Planner for Middle and High School** — PUBLISHED Oct 19 (in review, KDP ID 0XBWFXAF15M). Pen name Leah Marston, 142 pp, $12.99, no ISBN (low-content, 'Publish without ISBN'), print $3.41 → royalty $4.38. Would use the last Oct 18–24 slot.
 Parked: Dino Feelings/SEL (med BSR 135k = weak demand), Letter tracing (brands dominate), Dot-to-dot (no newcomers ranking), Cozy (Coco Wyo dominates)
 
 ## October sprint — 8 books live by Oct 31 (KDP cap = 2 new paperbacks/week, resets Sun 00:00 UTC)
