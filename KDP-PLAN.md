@@ -66,3 +66,20 @@ Total: 1 published + 7 new = 8 books by Oct 31. ~4 hrs/week. Client work first.
   | adhd daily planner undated | 105,666 | 2/6 | 6/10 | OK |
   | for women / moms / men | 290k–2.5M | 0–1/6 | 7–10/10 | Dead |
   Homework planners sell $8–13 → launch $12.99. $14.99+ health/finance/self-help sub-niches (dementia caregiver log, low-FODMAP tracker, executor workbook, small-landlord records, co-parenting log) = untested hypotheses, need a sweep.
+- Oct 19, 2026 — Planner/log sweep #2 (Books dept, top 6 organic, median BSR; adult niches all weak):
+  | Niche | med BSR | Notes |
+  | student planner undated middle school | 57,570 | **two leaders at 10.4k & 11.2k ($8–12.5)** → best planner angle after ADHD homework |
+  | homework planner for kids | 33,536 | leaders 10.4k/11.2k |
+  | caregiver daily log | 185,767 | 13.6k & 48k leaders but health-adjacent (claims risk) |
+  | small-business order log | 217,465 | weak |
+  | reading log for kids | 216,813 | weak |
+  | homeschool planner undated | 374,892 | weak |
+  | rental/landlord record | 407,851 | weak |
+  | pet health log | 294,052 | weak |
+  | budget planner | 302,950 | weak |
+  | teacher lesson plan book | 319,171 | weak (one at 40k) |
+  | sourdough journal | 523,152 | weak |
+  | co-parenting log | 788,967 | weak |
+  | reading log adults | 722,057 | weak |
+  | job search tracker / meal planner / nurse shift / kids chore chart | 1.0M–2.0M | dead |
+  Verdict: adult planners/logs ≈ 0–1 sale/day at best. Student-planner angle is the only planner niche with BSR <15k. Kids' activity niches (4k–25k) still beat everything else.
