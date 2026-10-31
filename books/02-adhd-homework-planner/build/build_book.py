@@ -1,5 +1,5 @@
 """ADHD Homework Planner — full 120-page interior + wraparound cover.
-Run: python3 build_book.py  -> ../interior.pdf, ../cover.pdf
+Run: python3 build_book.py  -> ../final/interior.pdf, ../final/cover.pdf
 Fonts are embedded TrueType (Liberation Sans = Helvetica metrics) so KDP preflight passes.
 """
 import math
@@ -406,6 +406,6 @@ def build_cover(path, n_pages):
 
 
 if __name__ == "__main__":
-    n = build_interior("../interior.pdf")
-    cw_in, ch_in, sp = build_cover("../cover.pdf", n)
+    n = build_interior("../final/interior.pdf")
+    cw_in, ch_in, sp = build_cover("../final/cover.pdf", n)
     print(f"interior: {n} pages | cover: {cw_in:.3f} x {ch_in:.3f} in, spine {sp:.3f} in")

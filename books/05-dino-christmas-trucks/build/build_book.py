@@ -1,9 +1,9 @@
 """Dino Christmas Trucks: raw ChatGPT pages -> cleaned pages, interior PDF, wraparound cover.
 
-  python3 build_book.py RAW_DIR [--skip 07,23] [--cover 12] [--max 45]
+  python3 build_book.py ../source/raw --cover 07 --max 50   (RAW_DIR: 01.png..50.png, or hf_*.png originals)
 
 RAW_DIR holds 01.png ... 50.png (jpg/webp ok) in prompt order.
-Outputs (next to this folder): clean/NN.png, qa_report.txt, contact_sheet.png, interior.pdf, cover.pdf, cover_preview.png
+Outputs: ../final/interior.pdf + cover.pdf; ../work/ (clean/NN.png, qa_report.txt, contact_sheet.png, cover_page_coloured.png; git-ignored)
 Cleaning = Book 1 pipeline: trim, upscale to fit, blur 1.2, threshold 150, 0.5" margin.
 """
 import argparse, glob, os, re, random
@@ -16,7 +16,7 @@ from reportlab.lib.utils import ImageReader
 from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.ttfonts import TTFont
 
-HERE = os.path.dirname(os.path.abspath(__file__)); OUT = os.path.dirname(HERE)
+HERE = os.path.dirname(os.path.abspath(__file__)); BOOK = os.path.dirname(HERE); OUT = os.path.join(BOOK, "work"); FINAL = os.path.join(BOOK, "final")
 for n, f in [("Lucky", "LuckiestGuy"), ("Fred", "Fredoka-SemiBold"), ("FredR", "Fredoka-Regular")]:
     pdfmetrics.registerFont(TTFont(n, f"{HERE}/fonts/{f}.ttf"))
 
@@ -155,7 +155,13 @@ def main():
     a = ap.parse_args(); skip = {int(s) for s in a.skip.split(",") if s}
     files = sorted([f for f in glob.glob(os.path.join(a.raw, "*")) if re.match(r"^\d+\.(png|jpe?g|webp)$", os.path.basename(f), re.I)],
                    key=lambda f: int(re.match(r"\d+", os.path.basename(f)).group()))
-    os.makedirs(f"{OUT}/clean", exist_ok=True)
+    if not files:  # Higgsfield originals (hf_*.png): map to prompt numbers via ../source/higgsfield_urls.txt
+        man = os.path.join(BOOK, "source", "higgsfield_urls.txt"); tmp = os.path.join(OUT, "numbered"); os.makedirs(tmp, exist_ok=True)
+        for line in open(man):
+            n, u = line.split(); src = os.path.join(a.raw, os.path.basename(u))
+            if os.path.exists(src): Image.open(src).save(os.path.join(tmp, f"{n}.png"))
+        files = sorted(glob.glob(os.path.join(tmp, "*.png")), key=lambda f: int(re.match(r"\d+", os.path.basename(f)).group()))
+    os.makedirs(f"{OUT}/clean", exist_ok=True); os.makedirs(FINAL, exist_ok=True)
     kept, report = [], []
     for f in files:
         num = int(re.match(r"\d+", os.path.basename(f)).group())
@@ -171,13 +177,13 @@ def main():
         num = int(re.match(r"\d+", os.path.basename(f)).group()); t = Image.open(f"{OUT}/clean/{num:02d}.png").convert("L"); t.thumbnail((tw - 8, th - 8))
         x, y = (k % cols) * tw, (k // cols) * (th + 18); sheet.paste(t, (x + 4, y + 4)); d.text((x + 6, y + th), f"{num:02d}" + (" SKIP" if num in skip else ""), fill="red")
     sheet.save(f"{OUT}/contact_sheet.png")
-    n_pages = build_interior([im for _, im in kept], f"{OUT}/interior.pdf")
+    n_pages = build_interior([im for _, im in kept], f"{FINAL}/interior.pdf")
     cnum = int(a.cover) if a.cover else kept[0][0]
     cover_bw = dict(kept).get(cnum) or kept[0][1]
     small = cover_bw.resize((cover_bw.width // 3, cover_bw.height // 3), Image.LANCZOS).point(lambda v: 255 if v > 128 else 0)
     col = autocolour(small); col.save(f"{OUT}/cover_page_coloured.png")
     thumbs = [im for n, im in kept if n != cnum][1:4]
-    cw, ch, sp = build_cover(col, thumbs, len(kept), n_pages, f"{OUT}/cover.pdf")
+    cw, ch, sp = build_cover(col, thumbs, len(kept), n_pages, f"{FINAL}/cover.pdf")
     print(f"{len(files)} raw -> {len(kept)} used | interior {n_pages} pp | cover {cw:.3f} x {ch:.3f} in, spine {sp:.3f} in")
     print("\n".join(r for r in report if "CHECK" in r) or "QA: all pages OK")
 

@@ -20,11 +20,10 @@ Weekly rhythm: Mon = prompts + Bibhu generates Book A pages · Tue = Book B page
 
 ## Layout
 - `KDP-PLAN.md`, `KDP-LEARNINGS.md` — plan + learnings (source of truth).
-- `books/<book>/` — prompts, build scripts, samples, status README per book.
+- `books/NN-<book>/` — one folder per book, numbered by publish order. Same layout in each: `README.md` (status), `build/`, `source/` or `art/`, `final/` (upload files + LISTING.md), `marketing/`. Index: `books/README.md`.
 - Raw/clean page images for image books live on Bibhu's PC: `C:\Users\bibhu\VividFlow-Studio\KDP\<book>\`.
 
-## Current focus (Oct 19, 2026)
-- Dino Trucks Maze Book: PUBLISHED Oct 19 (in review). See `books/dino-mazes/README.md`.
-- ADHD Homework Planner: live (ASIN B0HN7WKJL4). A+ draft waiting to have the ASIN applied.
-- Student Planner (Leah Marston, $12.99): PUBLISHED Oct 19 (in review). See `books/student-planner/`.
-- KDP cap: 0 slots left this week (Oct 18–24, resets Sun Oct 25 00:00 UTC). Next: Dino Dot Marker (needs Bibhu's images) or Bold & Easy Dino Coloring.
+## Current focus (Oct 31, 2026)
+- 5 books live/in review: Dino Trucks Coloring, ADHD Homework Planner, Dino Trucks Mazes, Student Planner, Dino Christmas Trucks (published Oct 31, 50 Higgsfield pages).
+- Image pages: Claude generates them on Higgsfield (GPT Image 2.5, medium, 2k, 3:4 = 1 credit/page). Bibhu pushes originals to `books/NN/source/raw/` via git when the cloudfront host is blocked.
+- KDP cap: Oct 25–31 week used 1 slot (Christmas). New week Nov 1–7: 2 slots. Next: Dino Dot Marker or Bold & Easy Dino Coloring.
