@@ -122,7 +122,7 @@ def build_cover(cover_img, thumbs, n_imgs, n_pages, path):
     c.setFont("Fred", 11); c.drawCentredString(bx, by - 16, "BIG & EASY"); c.drawCentredString(bx, by - 29, "PAGES")
     c.setFillColor(DARK); c.setFont("Fred", 15); c.drawCentredString(fx + W / 2, bleed + 30, AUTHOR)
     # SPINE (KDP: text only if > 79 pages; skip if too thin to stay 0.0625" clear)
-    if n_pages > 79 and spine >= 0.25 * 72:
+    if n_pages > 79 and spine >= 0.2 * 72:
         fs = min(12, spine - 9); c.saveState(); c.translate(bleed + W + spine / 2, bleed + H / 2); c.rotate(-90)
         c.setFillColor(white); c.setFont("Fred", fs); c.drawCentredString(0, -fs * 0.35, f"DINO CHRISTMAS TRUCKS  •  {AUTHOR.upper()}"); c.restoreState()
     # BACK
