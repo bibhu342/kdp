@@ -40,3 +40,7 @@ Results (fill in later)
 Results: ADHD Homework Planner (fill in later)
 - Published: Oct 15, 2026 | $14.99 | 234 pp | Sales wk1: — | wk4: — | BSR: — | Reviews: —
 - Took 6 cover rounds (tilt → dots → readability). Next planner: start from the zoomed-crop cover layout in build_book.py.
+
+## Oct 31, 2026: Higgsfield MCP for page generation (Book 2)
+- Claude generates all pages through Higgsfield. GPT Image 2.5 at medium quality, 2k, 3:4 gives 1744×2336 px for **1 credit per page** (high/2k = 2.75, low/1k = 0.25). 50 pages ≈ 50 credits in about 3 minutes, so this replaces Bibhu's Monday/Tuesday generation hour.
+- Files land on cloudfront (d8j0ntlcm91z4.cloudfront.net). Add that host to the cloud environment's allowed domains so Claude can download and clean the pages without a manual step.
