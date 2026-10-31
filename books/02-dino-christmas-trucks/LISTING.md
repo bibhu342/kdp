@@ -1,10 +1,10 @@
 # KDP listing — Dino Christmas Trucks Coloring Book (Paperback)
 
 **Title:** Dino Christmas Trucks Coloring Book
-**Subtitle:** Big & Easy Christmas Coloring Pages for Kids Ages 4-8 with Dinosaurs Driving Santa's Sleigh, Delivery Trucks, Snowploughs and Trains | Stocking Stuffer Gift for Boys and Girls
-**Series:** Dino Doodle (same as Book 1)
+**Subtitle:** 50 Big & Easy Holiday Pages for Kids Ages 4-8  (kept short: Oct 16 KDP alert on keyword-stuffed subtitles)
+**Series:** Dino Trucks Activity Books (KDP series JDH4V9H5NNK). Add as main content.
 **Author:** Bibhu Behera
-**Price:** $9.99 US · B&W, white paper, 8.5×11, no bleed, matte · free KDP ISBN (only with Bibhu's yes)
+**Price:** $9.99 US · 102 pp B&W, white paper, 8.5×11, no bleed, matte · print ≈ $2.84 → royalty ≈ $3.15 (confirm in KDP pricing table) · free KDP ISBN: Bibhu clicks Assign
 **Reading age:** 4–8 · Low-content: No
 
 ## Description
@@ -40,4 +40,4 @@ Makes a great stocking stuffer for kids who love dinosaurs and trucks!
 - Children's Books › Animals › Dinosaurs
 
 ## AI disclosure
-Images: many, minimal editing (ChatGPT). Text: some sections (Claude). Translations: none.
+Images: entire work, minimal editing. Tool: GPT Image (via Higgsfield). Text: some sections, Claude. Translations: none.

@@ -1,14 +1,11 @@
 # ADHD Homework Planner for Students — status (Oct 15, 2026)
 
-**PUBLISHED Oct 15, 2026** (submitted; KDP review up to 72 h). ISBN: _fill in_ · ASIN: _fill in_.
-
-**Build status (Oct 15):** full-school-year interior (`interior.pdf`, 234 pp: 180 daily, 36 weekly, 9 monthly) + wraparound cover (`cover.pdf`, 17.78×11.25 in, spine 0.527 in) BUILT. Listing drafted in `LISTING.md`.
-**Waiting on Bibhu:** (1) review interior + `cover_preview.png`; (2) author = pen name Leah Marston (decided Oct 15); (3) Publish in the Oct 18–24 slot.
+**Status: PUBLISHED Oct 16, 2026 (submitted, in review).** KDP ID MCK45NN6MYB · ISBN 9798162774228 · $14.99 · print $4.98 → royalty $4.02.
 Rebuild: `cd build && python3 build_book.py` (change `AUTHOR` there if the pen name changes).
 
 ## Spec
 - 8.5×11 paperback, undated, black & white interior with grey tints (no colour interior: royalty would halve).
-- 234 pages (full school year), $14.99 US (~$5.18 royalty). Was 120 pp / 90 days; expanded Oct 15 on Bibhu's call. Cover is full colour.
+- 234 pages (full school year), $14.99 US (royalty $4.02 — KDP print cost is $4.98, not the $3.81 estimate). Was 120 pp / 90 days; expanded Oct 15 on Bibhu's call. Cover is full colour.
 - Author: pen name **Leah Marston**. Bibhu does not want his real name on this line.
 - Built entirely in code (reportlab): `build/daily_page.py` → `sample_v2_APPROVED.pdf`.
 - Listing language: "designed for ADHD students", "built around executive function". **Never** claim it treats, fixes or improves ADHD.
@@ -26,9 +23,9 @@ Rebuild: `cd build && python3 build_book.py` (change `AUTHOR` there if the pen n
 | Rejection sensitivity | "If a friend had my day, I'd tell them:" |
 | "Lazy" label | Win of the Day + My Reward |
 
-## Full book (built: 120 pp)
-Order: belongs-to · how-to-use · brain card · tests & projects ×2 · then 4× [monthly reset → weeks (5,5,4,4) of (My Week + 5 daily)] · wins wall · notes ×2.
-Daily pages are tagged "DAY n of 90" and weekly pages "WEEK n of 18". Fonts are embedded Liberation Sans (no Helvetica, which KDP flags when it isn't embedded).
+## Full book (built: 234 pp)
+Order: belongs-to · how-to-use · brain card · tests & projects ×2 · then 9× [monthly reset → weeks (5,5,4,4) of (My Week + 5 daily)] · wins wall · notes ×2.
+Daily pages are tagged "DAY n of 180" and weekly pages "WEEK n of 36". Fonts are embedded Liberation Sans (no Helvetica, which KDP flags when it isn't embedded).
 
 ## Original plan
 - Front: this-planner-belongs-to, how to use (1 page), "How My Brain Works Best" card for teachers/parents.
@@ -36,3 +33,12 @@ Daily pages are tagged "DAY n of 90" and weekly pages "WEEK n of 18". Fonts are 
 - Weekly overview (every 5 daily pages) incl. friendship check-in + 3 social scripts.
 - Test & project tracker, monthly reset pages.
 - Back: wins collection page, notes.
+
+## KDP listing as published (Oct 16)
+- Categories: Children's › Education & Reference › Study Aids › Children's General Study Aids · Teen & YA › Education & Reference › Study Aids › General · Children's › Education & Reference › School & Education.
+- Reading age 9–16. Not marked low-content. 8.5×11, B&W white, no bleed, matte. Worldwide rights. Expanded Distribution OFF.
+- AI disclosure: Texts = entire work, minimal editing (Claude). Images = none. Translations = none.
+- Keywords and description: see final/LISTING.md (description sent as HTML).
+
+## Oct 16 — KDP title alert fixed
+Amazon 'misleading title' alert (5-day deadline). Subtitle shortened to: `Undated Daily, Weekly & Monthly Pages for Kids and Teens, 180 School Days, 8.5 x 11` (removed repeats and 'Beat Procrastination / Finish Homework'). Title unchanged. Resubmitted Oct 16.

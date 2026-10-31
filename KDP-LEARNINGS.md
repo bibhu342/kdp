@@ -37,9 +37,43 @@ Results (fill in later)
 - Expanded to a full school year (180 daily / 36 weekly / 9 monthly = 234 pp). B&W print = $1.00 + $0.012 × pages → $3.81, so price $14.99 to keep the royalty around $5. Stay undated: a "2027" dated planner sells for about 3 months and then dies, while undated sells every year.
 - Cover mockup: never rotate the page preview. The tilt plus offset shadow looked skewed (Bibhu: "distorted"). Use a straight page, a small drop shadow, and stickers kept outside the page.
 - Cover previews must be readable: show a zoomed crop (scale ≥0.6, ending cleanly under a box row) instead of a whole page shrunk to 0.3–0.5×, which makes the text 4–5 pt.
-Results: ADHD Homework Planner (fill in later)
-- Published: Oct 15, 2026 | $14.99 | 234 pp | Sales wk1: — | wk4: — | BSR: — | Reviews: —
-- Took 6 cover rounds (tilt → dots → readability). Next planner: start from the zoomed-crop cover layout in build_book.py.
+
+## Oct 16, 2026 — ADHD Homework Planner published
+- Real KDP print cost for 234 pp B&W 8.5×11 = **$4.98** (not $3.81 from the old formula) → royalty $4.02 at $14.99. Always read the printing cost in KDP's pricing table before picking a price.
+- KDP has no Self-Help › Time Management category any more; used Children's/Teen Study Aids + School & Education.
+- Previewer passed first try with 234 pp and embedded Liberation Sans; AI disclosure stayed set after upload (fill it AFTER uploading files, then re-check).
+- Chrome file upload works from the staged container copy, not the Windows path.
+- KDP alert same day: long keyword-stuffed subtitle flagged as misleading. Keep subtitles short, no repeated words, no outcome promises.
+Results (fill in later): Live date: — | Sales wk1: — | wk4: — | BSR: — | Reviews: —
+
+## Oct 19, 2026 — Book 3: Dino Trucks Maze Book (built + published in one night, 0 image credits)
+- Reusing Book 1 clean art as the maze-page picture + a new flood-filled cover dino = series look for free. Mazes: recursive backtracker, vector lines in reportlab; 3 levels by grid size (6–9 / 10–13 / 14–17 cols).
+- Gotcha: drawing an empty (white-filled) star left the fill colour white, so following text vanished. Reset setFillGray(0) after any white fill.
+- Gotcha: reportlab Canvas defaults to unembedded Helvetica even if never used. Always pass initialFontName.
+- Print cost 94 pp B&W 8.5x11 = $2.84 → $3.15 royalty at $9.99. Previewer passed first try.
+- Assigning a free ISBN is blocked for Claude's browser automation even with Bibhu's yes. Bibhu clicks "Assign ISBN" himself (one click), then Claude continues.
+- KDP AI disclosure now asks which tool(s): enter Claude (texts) and ChatGPT (images).
+- Title kept short with no repeated words (lesson from the Oct 16 planner alert).
+Results (fill in later): Live date: — | Sales wk1: — | wk4: — | BSR: — | Reviews: —
+
+## Weekly sales log (from KDP Reports, logged Mondays)
+| Week | Dino Trucks (Oct 6) | ADHD Planner (Oct 16) | Dino Mazes (Oct 19) | Notes |
+|---|---|---|---|---|
+| Oct 12–18 | 0 sales, no BSR | 0 (live Oct 16) | — | First full week: 0 sales, 0 KENP, 0 royalties across catalogue. Normal for new books with no reviews and no traffic. |
+
+## Oct 19, 2026 — free marketing setup
+- A+ ASIN search failed for days after go-live ("Error fetching ASINs"); worked on Oct 19 by typing the exact ASIN after a fresh page load. A+ submitted for the planner.
+- Series "Dino Trucks Activity Books" (KDP series JDH4V9H5NNK, un-ordered) created with Dino Trucks Coloring Book + Dino Trucks Maze Book as main content. Add every future Dino book to it.
+- Pinterest is still blocked for the Chrome extension (site permission); Bibhu must allow pinterest.com.
+- Author copies: skipped (no India marketplace; shipping/duty > book cost). Rely on Previewer for print QA.
+
+## Student Planner (Oct 19, 2026) — draft built
+- Chosen from sweep #2: only planner niche with leaders <15k BSR (10.4k, 11.2k). Undated, B&W, 8.5x11, 142 pp, $12.99, pen name Leah Marston.
+- KDP print cost 142 pp B&W = $3.41; at $12.99 royalty 60% = $4.38. Low-content ticked honestly -> 'Publish without an ISBN' available (no ISBN assigned; expanded distribution unavailable).
+- Previewer: no issues first pass (fonts embedded, margins >=0.36in). KDP auto-added a barcode on back cover.
+- file_upload needs a manual input/change event dispatch via JS to register on KDP Content page.
+- AI disclosure: texts Claude entire work minimal editing; images none; translations none.
+- ADHD planner was left with low-content unticked; offer to correct.
 
 ## Oct 31, 2026: Higgsfield MCP for page generation (Book 2)
 - Claude generates all pages through Higgsfield. GPT Image 2.5 at medium quality, 2k, 3:4 gives 1744×2336 px for **1 credit per page** (high/2k = 2.75, low/1k = 0.25). 50 pages ≈ 50 credits in about 3 minutes, so this replaces Bibhu's Monday/Tuesday generation hour.
