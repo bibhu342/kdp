@@ -15,7 +15,7 @@ Client work comes first. KDP = ~1 hr/day, 4 days/week, 2 books/week.
 
 ## Book queue (data-ranked Oct 6, 2026 — see research log)
 1. ✅ Dino Trucks Coloring Book — published Oct 6, 2026 (ISBN 9798160523651, $9.99, ~$3.15/sale) — author changed to Bibhu Behera Oct 9 after KDP contributor alert
-2. ⬜ Dino Christmas Trucks — seasonal, live by early Nov. **Oct 31: BUILT. 50 pages (Higgsfield), interior 102 pp + cover + listing in books/02-dino-christmas-trucks/. Publish Sun Nov 1 (new KDP week).**
+2. ⬜ Dino Christmas Trucks — seasonal, live by early Nov. **Oct 31: BUILT. 50 pages (Higgsfield), interior 102 pp + cover + listing in books/02-dino-christmas-trucks/. Publish Sat Oct 31 (Oct 25–31 week had 2 free slots; last upload was Oct 19).**
 3. ⬜ Dino Dot Marker Activity Book (toddlers 2–4) — med BSR 7.6k, 4/10 top books <50 reviews — publish Thu Oct 15
 4. ✅ Dino Trucks Maze Book for Kids Ages 4-8 — published Oct 19, 2026 (ISBN 9798163468201, KDP ID TRQCHJRB31T, 94 pp, $9.99, print $2.84 → $3.15/sale). Code-made mazes + Book 1 art, 0 image credits. Used 1 of the Oct 18–24 slots.
 5. ⬜ Bold & Easy Dino Coloring (ages 1–4) — med BSR 4k; heavier competition, needs standout cover
