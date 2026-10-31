@@ -32,7 +32,7 @@ Makes a great stocking stuffer for kids who love dinosaurs and trucks!
 4. christmas stocking stuffers for kids
 5. dinosaur coloring book for boys
 6. monster truck christmas activity book
-7. santa coloring book for toddlers
+7. winter holiday activity book for kids
 
 ## Categories (3)
 - Children's Books › Activities, Crafts & Games › Coloring Books
