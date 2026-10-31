@@ -62,13 +62,13 @@ def autocolour(bw):
 
 # ---------- interior ----------
 def belongs(c):
-    c.setFillColor(RED); c.setFont("Lucky", 40); c.drawCentredString(W / 2, H - 170, "THIS BOOK")
+    c.setFillColor(HexColor("#000000")); c.setFont("Lucky", 40); c.drawCentredString(W / 2, H - 170, "THIS BOOK")
     c.drawCentredString(W / 2, H - 218, "BELONGS TO")
     c.setStrokeColor(HexColor("#000000")); c.setLineWidth(2); c.roundRect(90, H - 340, W - 180, 80, 16)
     c.setFillColor(HexColor("#000000")); c.setFont("FredR", 13)
     c.drawCentredString(W / 2, 120, "Merry Christmas! Colour your favourite dino trucks.")
     # simple outline snowflakes to colour
-    for (x, y, r) in [(120, 300, 28), (W - 120, 330, 22), (W / 2, 220, 18), (170, 470, 16), (W - 160, 520, 26)]:
+    for (x, y, r) in [(130, 260, 30), (W - 130, 300, 26), (W / 2, 200, 20), (200, 370, 18), (W - 200, 400, 22)]:
         for k in range(6):
             import math
             ang = k * math.pi / 3; c.setLineWidth(2.2); c.line(x, y, x + r * math.cos(ang), y + r * math.sin(ang))
