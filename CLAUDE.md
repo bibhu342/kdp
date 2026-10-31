@@ -21,7 +21,7 @@ Weekly rhythm: Mon = prompts + Bibhu generates Book A pages · Tue = Book B page
 ## Layout
 - `KDP-PLAN.md`, `KDP-LEARNINGS.md` — plan + learnings (source of truth).
 - `books/NN-<book>/` — one folder per book, numbered by publish order. Same layout in each: `README.md` (status), `build/`, `source/` or `art/`, `final/` (upload files + LISTING.md), `marketing/`. Index: `books/README.md`.
-- Raw/clean page images for image books live on Bibhu's PC: `C:\Users\bibhu\VividFlow-Studio\KDP\<book>\`.
+- Bibhu's PC: `C:\Users\bibhu\VividFlow-Studio\KDP\repo\` = git clone of this repo (pull before work, push raw pages into `books/NN/source/raw/`). Old/raw files from before Oct 31: `KDP\raw-archive\`.
 
 ## Current focus (Oct 31, 2026)
 - 5 books live/in review: Dino Trucks Coloring, ADHD Homework Planner, Dino Trucks Mazes, Student Planner, Dino Christmas Trucks (published Oct 31, 50 Higgsfield pages).
