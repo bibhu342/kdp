@@ -1,6 +1,6 @@
 # Book 06: Dino Trucks Word Search
 
-**Status (Nov 1, 2026): BUILT, ready to upload.** 0 image credits: puzzles in code, pictures reused from the Dino Trucks clean art (`../03-dino-trucks-mazes/art/`), cover mascot = Maze Book hero mirrored on a purple series cover.
+**PUBLISHED Nov 1, 2026 (in review).** Series Dino Trucks Activity Books (main content). ISBN/ASIN: _fill in when live_. 0 image credits: puzzles in code, pictures reused from the Dino Trucks clean art (`../03-dino-trucks-mazes/art/`), cover mascot = Maze Book hero mirrored on a purple series cover.
 
 - 78 pp: belongs-to, how to play, 60 puzzles (20 Easy 10×10 across/down · 25 Medium 12×12 + diagonal · 15 Hard 14×14 + diagonal up), 15 answer pages, certificate.
 - Each word appears exactly once (no accidental duplicates, no words hidden inside other words), no backwards words, rude-word filter on filler letters.

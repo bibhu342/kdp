@@ -23,7 +23,7 @@ Weekly rhythm: Mon = prompts + Bibhu generates Book A pages · Tue = Book B page
 - `books/NN-<book>/` — one folder per book, numbered by publish order. Same layout in each: `README.md` (status), `build/`, `source/` or `art/`, `final/` (upload files + LISTING.md), `marketing/`. Index: `books/README.md`.
 - Bibhu's PC: `C:\Users\bibhu\VividFlow-Studio\KDP\repo\` = git clone of this repo (pull before work, push raw pages into `books/NN/source/raw/`). Old/raw files from before Oct 31: `KDP\raw-archive\`.
 
-## Current focus (Oct 31, 2026)
-- 5 books live/in review: Dino Trucks Coloring, ADHD Homework Planner, Dino Trucks Mazes, Student Planner, Dino Christmas Trucks (published Oct 31, 50 Higgsfield pages).
+## Current focus (Nov 1, 2026)
+- 6 books live/in review: Dino Trucks Coloring, ADHD Homework Planner, Dino Trucks Mazes, Student Planner, Dino Christmas Trucks (Oct 31), Dino Trucks Word Search (Nov 1, code-made).
 - Image pages: Claude generates them on Higgsfield (GPT Image 2.5, medium, 2k, 3:4 = 1 credit/page). Bibhu pushes originals to `books/NN/source/raw/` via git when the cloudfront host is blocked.
-- KDP cap: Oct 25–31 week used 1 slot (Christmas). New week Nov 1–7: 2 slots. Next: Dino Dot Marker or Bold & Easy Dino Coloring.
+- KDP cap: Nov 1–7 week has 1 slot left (Word Search used one). Next: Valentine's toddler coloring (publish by early Jan) or Bold & Easy Dino Coloring.
