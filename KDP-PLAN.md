@@ -16,10 +16,10 @@ Client work comes first. KDP = ~1 hr/day, 4 days/week, 2 books/week.
 ## Book queue (data-ranked Oct 6, 2026 — see research log)
 1. ✅ Dino Trucks Coloring Book — published Oct 6, 2026 (ISBN 9798160523651, $9.99, ~$3.15/sale) — author changed to Bibhu Behera Oct 9 after KDP contributor alert
 2. ✅ Dino Christmas Trucks Coloring Book — PUBLISHED Oct 31, 2026 (in review). Bibhu Behera, $9.99, 102 pp, 50 Higgsfield pages, series Dino Trucks Activity Books. books/05-dino-christmas-trucks/
-3. ⬜ Dino Dot Marker Activity Book (toddlers 2–4) — med BSR 7.6k, 4/10 top books <50 reviews — publish Thu Oct 15
+3. 🔨 Dino Dot Marker Activity Book (toddlers 2–4) — BUILT Nov 1 (code-made, books/07-dino-dot-marker/), ready to upload. (med BSR 7.6k, 4/10 top books <50 reviews)
 4. ✅ Dino Trucks Maze Book for Kids Ages 4-8 — published Oct 19, 2026 (ISBN 9798163468201, KDP ID TRQCHJRB31T, 94 pp, $9.99, print $2.84 → $3.15/sale). Code-made mazes + Book 1 art, 0 image credits. Used 1 of the Oct 18–24 slots.
 5. ⬜ Bold & Easy Dino Coloring (ages 1–4) — med BSR 4k; heavier competition, needs standout cover
-6. ⬜ Dino Scissor Skills (preschool) — med BSR 23k, 3/10 <50 reviews
+6. 🔨 Dino Scissor Skills (preschool) — BUILT Nov 1 (code-made, books/08-dino-scissor-skills/), ready to upload. (med BSR 23k, 3/10 <50 reviews)
 7–8. ⬜ Oct 25–31: Vol 2 of the best seller + Christmas variant of the best format (decided from KDP Reports)
 NEW ✅ **ADHD Homework Planner for Students** — PUBLISHED Oct 16, 2026 (in review). Pen name Leah Marston, 234 pp, $14.99, ISBN 9798162774228, royalty $4.02. Used 1 of the Oct 11–17 KDP slots.
 NEW 📝 **Student Planner for Middle and High School** — PUBLISHED Oct 19 (in review, KDP ID 0XBWFXAF15M). Pen name Leah Marston, 142 pp, $12.99, no ISBN (low-content, 'Publish without ISBN'), print $3.41 → royalty $4.38. Would use the last Oct 18–24 slot.
