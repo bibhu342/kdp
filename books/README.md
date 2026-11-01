@@ -20,5 +20,6 @@ Every book folder uses the same layout:
 | 05 | [Dino Christmas Trucks Coloring Book](05-dino-christmas-trucks/) | Bibhu Behera | $9.99 | 102 | Oct 31, 2026 |
 | 06 | [Dino Trucks Word Search](06-dino-trucks-word-search/) | Bibhu Behera | $9.99 | 78 | Nov 1, 2026 |
 | 07 | [Dino Trucks Dot Marker Book](07-dino-dot-marker/) | Bibhu Behera | $9.99 | 92 | built Nov 1, ready |
+| 08 | [Dino Trucks Scissor Skills](08-dino-scissor-skills/) | Bibhu Behera | $9.99 | 92 | built Nov 1, ready |
 
-New book: next number + short name, e.g. `08-dino-scissor-skills/`.
+New book: next number + short name, e.g. `09-...`.

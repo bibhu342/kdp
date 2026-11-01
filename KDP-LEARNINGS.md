@@ -98,3 +98,9 @@ Results (fill in later): Live date: — | Sales wk1: — | wk4: — | BSR: — |
   - The rude-word filter must skip matches that sit entirely inside a real word (BUTTERFLY contains BUTT; SHEEP reversed contains PEE).
 - Series reuse: same cover script with the mascot mirrored, new sky colour and a letter-grid background gives a series look for free.
 Results (fill in later): Live date: — | Sales wk1: — | wk4: — | BSR: — | Reviews: —
+
+## Nov 1, 2026: Books 07 (Dot Marker) + 08 (Scissor Skills), code-made, 0 credits
+- Dot marker: hex-pack circles inside a mask (scipy distance transform). Letters and numbers use the Luckiest Guy glyph mask, and the outline is drawn as stroke-mode text at the same position. Shrink dots only where strokes are thin.
+- Scissor cut-outs from existing art: close → fill holes → largest blob → pad 0.18 in → open to smooth; contour with skimage. White out everything outside the cut line, or kids see ground and hills they shouldn't cut.
+- Dot-marker and cutting pages must be single-sided (blank backs). That doubles the page count, which fits the ~92 pp sweet spot.
+- One series cover script (`build_cover.py`) now powers 4 books: just change the sky colour, background motif, ribbon text, badges and back copy.
