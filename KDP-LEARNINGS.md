@@ -89,7 +89,7 @@ Results (fill in later): Live date: — | Sales wk1: — | wk4: — | BSR: — |
 - Repo reorganised: `books/NN-name/` by publish order, same layout everywhere, index in `books/README.md`.
 Results (fill in later): Live date: — | Sales wk1: — | wk4: — | BSR: — | Reviews: —
 
-## Nov 1, 2026: Book 06 Dino Trucks Word Search, built (0 image credits)
+## Nov 1, 2026: Book 06 Dino Trucks Word Search, built and published the same day (0 image credits)
 - Amazon answers automated requests from the cloud session with "To discuss automated access" (503), even with the domain allowed. Don't try to get round it. Rank sweeps need Claude in Chrome on Bibhu's PC, or Bibhu checking manually.
 - Word search generator gotchas, all fixed in `build_book.py`:
   - Short words appear by chance in the filler letters, so retry the filler only, not the whole placement.
@@ -97,3 +97,4 @@ Results (fill in later): Live date: — | Sales wk1: — | wk4: — | BSR: — |
   - Reversed fragments (CAR in RACE) don't matter, because kids only search forwards. Check uniqueness in the allowed directions only.
   - The rude-word filter must skip matches that sit entirely inside a real word (BUTTERFLY contains BUTT; SHEEP reversed contains PEE).
 - Series reuse: same cover script with the mascot mirrored, new sky colour and a letter-grid background gives a series look for free.
+Results (fill in later): Live date: — | Sales wk1: — | wk4: — | BSR: — | Reviews: —
