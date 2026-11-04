@@ -24,6 +24,10 @@ Client work comes first. KDP = ~1 hr/day, 4 days/week, 2 books/week.
 NEW ✅ **ADHD Homework Planner for Students** — PUBLISHED Oct 16, 2026 (in review). Pen name Leah Marston, 234 pp, $14.99, ISBN 9798162774228, royalty $4.02. Used 1 of the Oct 11–17 KDP slots.
 NEW 📝 **Student Planner for Middle and High School** — PUBLISHED Oct 19 (in review, KDP ID 0XBWFXAF15M). Pen name Leah Marston, 142 pp, $12.99, no ISBN (low-content, 'Publish without ISBN'), print $3.41 → royalty $4.38. Would use the last Oct 18–24 slot.
 NEW ✅ **Dino Trucks Word Search** (ages 6–9) — PUBLISHED Nov 1, 2026 (in review). Used 1 of the Nov 1–7 KDP slots (books/06-dino-trucks-word-search/). 60 code-made puzzles, 78 pp, $9.99, series Dino Trucks Activity Books.
+NEW 🔨 **Dino Trucks Christmas Activity Book** (4–8) — BUILT Nov 4 (books/09-dino-christmas-activity/), seasonal: publish by mid-Nov.
+NEW 🔨 **Dino Trucks Pen Control** (3–5) — BUILT Nov 4 (books/10-dino-pen-control/).
+
+**Upload queue (2 paperbacks/week):** Nov 1–7: Dot Marker (07) · Nov 8–14: Christmas Activity (09, seasonal) + Scissor Skills (08) · Nov 15–21: Pen Control (10) + next.
 Parked: Dino Feelings/SEL (med BSR 135k = weak demand), Letter tracing (brands dominate), Dot-to-dot (no newcomers ranking), Cozy (Coco Wyo dominates)
 
 ## October sprint — 8 books live by Oct 31 (KDP cap = 2 new paperbacks/week, resets Sun 00:00 UTC)

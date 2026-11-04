@@ -22,5 +22,6 @@ Every book folder uses the same layout:
 | 07 | [Dino Trucks Dot Marker Book](07-dino-dot-marker/) | Bibhu Behera | $9.99 | 92 | built Nov 1, ready |
 | 08 | [Dino Trucks Scissor Skills](08-dino-scissor-skills/) | Bibhu Behera | $9.99 | 92 | built Nov 1, ready |
 | 09 | [Dino Trucks Christmas Activity Book](09-dino-christmas-activity/) | Bibhu Behera | $9.99 | 92 | built Nov 4, ready (seasonal) |
+| 10 | [Dino Trucks Pen Control](10-dino-pen-control/) | Bibhu Behera | $9.99 | 78 | built Nov 4, ready |
 
-New book: next number + short name, e.g. `09-...`.
+New book: next number + short name, e.g. `11-...`.

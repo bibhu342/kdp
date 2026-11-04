@@ -105,3 +105,8 @@ Results (fill in later): Live date: — | Sales wk1: — | wk4: — | BSR: — |
 - Dot-marker and cutting pages must be single-sided (blank backs). That doubles the page count, which fits the ~92 pp sweet spot.
 - One series cover script (`build_cover.py`) now powers 4 books: just change the sky colour, background motif, ribbon text, badges and back copy.
 - KDP limit is per format (2 paperback + 2 hardcover + 2 eBook per week; creating a draft counts). Bibhu's call (Nov 1): **no hardcovers for coloring/activity books** (consumables, he wouldn't buy them). Hardcover only worth testing for planners (ADHD Homework Planner) later.
+
+## Nov 4, 2026: Books 09 (Christmas Activity) + 10 (Pen Control), code-made from existing modules
+- Reuse beats rebuild: Book 09 loads the Book 03 maze, Book 06 word search, Book 07 dot packing and Book 05 cleaning code by exec'ing their build files. Book 03 needs its Poppins font paths patched to Fredoka, because Poppins is missing on this machine.
+- When an activity book reuses coloring pages from another title, say so in the book and the listing (honest, and it heads off "duplicate content" complaints).
+- Pen control = the Book 08 path generator with dotted grey strokes (dash 0.1/9, round caps) and a start dot. Pencil books stay double-sided.
