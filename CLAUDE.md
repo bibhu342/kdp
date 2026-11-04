@@ -23,8 +23,8 @@ Weekly rhythm: Mon = prompts + Bibhu generates Book A pages · Tue = Book B page
 - `books/NN-<book>/` — one folder per book, numbered by publish order. Same layout in each: `README.md` (status), `build/`, `source/` or `art/`, `final/` (upload files + LISTING.md), `marketing/`. Index: `books/README.md`.
 - Bibhu's PC: `C:\Users\bibhu\VividFlow-Studio\KDP\repo\` = git clone of this repo (pull before work, push raw pages into `books/NN/source/raw/`). Old/raw files from before Oct 31: `KDP\raw-archive\`.
 
-## Current focus (Nov 1, 2026)
+## Current focus (Nov 4, 2026)
 - 6 books live/in review: Dino Trucks Coloring, ADHD Homework Planner, Dino Trucks Mazes, Student Planner, Dino Christmas Trucks (Oct 31), Dino Trucks Word Search (Nov 1, code-made).
 - Image pages: Claude generates them on Higgsfield (GPT Image 2.5, medium, 2k, 3:4 = 1 credit/page). Bibhu pushes originals to `books/NN/source/raw/` via git when the cloudfront host is blocked.
-- READY TO UPLOAD: Book 07 Dino Trucks Dot Marker Book and Book 08 Dino Trucks Scissor Skills (both code-made, `final/` folders). KDP cap: Nov 1–7 has 1 slot left → publish Dot Marker now, Scissor Skills from Sun Nov 8.
+- READY TO UPLOAD (code-made, `final/` folders): 07 Dot Marker (this week, Nov 1–7) · 09 Christmas Activity + 08 Scissor Skills (Nov 8–14) · 10 Pen Control (Nov 15–21).
 - No Higgsfield for now (Bibhu's call, Nov 1): next books code-made. Valentine's toddler coloring needs images, so decide on credits later in November.
