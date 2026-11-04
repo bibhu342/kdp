@@ -26,5 +26,5 @@ Weekly rhythm: Mon = prompts + Bibhu generates Book A pages · Tue = Book B page
 ## Current focus (Nov 4, 2026)
 - 6 books live/in review: Dino Trucks Coloring, ADHD Homework Planner, Dino Trucks Mazes, Student Planner, Dino Christmas Trucks (Oct 31), Dino Trucks Word Search (Nov 1, code-made).
 - Image pages: Claude generates them on Higgsfield (GPT Image 2.5, medium, 2k, 3:4 = 1 credit/page). Bibhu pushes originals to `books/NN/source/raw/` via git when the cloudfront host is blocked.
-- READY TO UPLOAD (code-made, `final/` folders): 07 Dot Marker (this week, Nov 1–7) · 09 Christmas Activity + 08 Scissor Skills (Nov 8–14) · 10 Pen Control (Nov 15–21).
+- READY TO UPLOAD (code-made, `final/` folders): 07 Dot Marker (Nov 1–7) · 09 Christmas Activity + 08 Scissor Skills (Nov 8–14) · 10 Pen Control + 11 Activity Book (Nov 15–21) · 12 Sudoku (Nov 22–28).
 - No Higgsfield for now (Bibhu's call, Nov 1): next books code-made. Valentine's toddler coloring needs images, so decide on credits later in November.

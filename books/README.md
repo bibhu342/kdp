@@ -24,5 +24,6 @@ Every book folder uses the same layout:
 | 09 | [Dino Trucks Christmas Activity Book](09-dino-christmas-activity/) | Bibhu Behera | $9.99 | 92 | built Nov 4, ready (seasonal) |
 | 10 | [Dino Trucks Pen Control](10-dino-pen-control/) | Bibhu Behera | $9.99 | 78 | built Nov 4, ready |
 | 11 | [Dino Trucks Activity Book](11-dino-activity-book/) | Bibhu Behera | $9.99 | 92 | built Nov 4, ready |
+| 12 | [Dino Trucks Sudoku for Kids](12-dino-sudoku/) | Bibhu Behera | $9.99 | 98 | built Nov 4, ready |
 
-New book: next number + short name, e.g. `11-...`.
+New book: next number + short name, e.g. `13-...`.

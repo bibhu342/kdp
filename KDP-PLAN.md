@@ -27,7 +27,10 @@ NEW ✅ **Dino Trucks Word Search** (ages 6–9) — PUBLISHED Nov 1, 2026 (in r
 NEW 🔨 **Dino Trucks Christmas Activity Book** (4–8) — BUILT Nov 4 (books/09-dino-christmas-activity/), seasonal: publish by mid-Nov.
 NEW 🔨 **Dino Trucks Pen Control** (3–5) — BUILT Nov 4 (books/10-dino-pen-control/).
 
-**Upload queue (2 paperbacks/week):** Nov 1–7: Dot Marker (07) · Nov 8–14: Christmas Activity (09, seasonal) + Scissor Skills (08) · Nov 15–21: Pen Control (10) + next.
+NEW 🔨 **Dino Trucks Activity Book** (4–8, evergreen) — BUILT Nov 4 (books/11-dino-activity-book/).
+NEW 🔨 **Dino Trucks Sudoku for Kids** (6–10) — BUILT Nov 4 (books/12-dino-sudoku/).
+
+**Upload queue (2 paperbacks/week):** Nov 1–7: Dot Marker (07) · Nov 8–14: Christmas Activity (09, seasonal) + Scissor Skills (08) · Nov 15–21: Pen Control (10) + Activity Book (11) · Nov 22–28: Sudoku (12) + next.
 Parked: Dino Feelings/SEL (med BSR 135k = weak demand), Letter tracing (brands dominate), Dot-to-dot (no newcomers ranking), Cozy (Coco Wyo dominates)
 
 ## October sprint — 8 books live by Oct 31 (KDP cap = 2 new paperbacks/week, resets Sun 00:00 UTC)

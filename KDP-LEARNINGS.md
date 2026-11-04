@@ -110,3 +110,4 @@ Results (fill in later): Live date: — | Sales wk1: — | wk4: — | BSR: — |
 - Reuse beats rebuild: Book 09 loads the Book 03 maze, Book 06 word search, Book 07 dot packing and Book 05 cleaning code by exec'ing their build files. Book 03 needs its Poppins font paths patched to Fredoka, because Poppins is missing on this machine.
 - When an activity book reuses coloring pages from another title, say so in the book and the listing (honest, and it heads off "duplicate content" complaints).
 - Pen control = the Book 08 path generator with dotted grey strokes (dash 0.1/9, round caps) and a start dot. Pencil books stay double-sided.
+- Sudoku for kids: backtracking fill + remove clues while the solver still finds exactly one solution; 4x4/6x6/9x9 in one book gives an easy-to-hard ladder. Keep the corner picture below the grid (9x9 is tall).
